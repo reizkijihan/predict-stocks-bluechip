@@ -9,7 +9,7 @@ from fbprophet.plot import plot_plotly
 def app():
     st.markdown(f"<h1 style='text-align: center;'>Prediction Stocks Blue Chip</h1>",unsafe_allow_html=True)
 
-    START = "2011-01-01"
+    START = "2022-01-01"
     TODAY = date.today().strftime("%Y-%m-%d")
 
     stocks = ('AALI.JK', 'ANTM.JK', 'ASII.JK', 'BBCA.JK', 'BBRI.JK', 'BBNI.JK', 'BMRI.JK', 'GGRM.JK', 'HMSP.JK', 'ICBP.JK', 'INDF.JK', 'JSMR.JK', 'TLKM.JK', 'UNTR.JK', 'UNVR.JK')
