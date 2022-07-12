@@ -8,7 +8,7 @@ def app():
 
     image = st.image('buy-stocks.jpg')
 
-    START = "2011-01-01"
+    START = "2022-01-01"
     TODAY = date.today().strftime("%Y-%m-%d")
 
     stocks = ('BBCA.JK', 'BBRI.JK', 'UNVR.JK', 'TLKM.JK', 'ICBP.JK', 'BMRI.JK', 'PGAS.JK', 'ASII.JK', 'BBNI.JK', 'UNTR.JK', 'ANTM.JK', 'GGRM.JK', 'HMSP.JK','ICBP.JK', 'MYOR.JK')
